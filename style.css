@@ -93,6 +93,14 @@ body {
   font-size: 36px;
   z-index: 4;
 }
+.emoji_cake{
+  position: absolute;
+  bottom: 68px;
+  left: 43%;
+  font-size: 36px;
+  opacity: 0;
+  z-index: 4;
+}
 
 .emoji_bear {
   font-size: 40px;
@@ -140,6 +148,11 @@ body {
   transform: translate(-50%, 0);
   opacity: 1;
 }
+.emoji_cake.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  animation: float 3s ease-in-out infinite;
+}
 
 .flowers {
   margin-top: 20px;
@@ -176,7 +189,7 @@ body {
   }
 
   .letter {
-    font-size: 14px;
+    font-size: 18px;
     padding: 16px;
   }
 
