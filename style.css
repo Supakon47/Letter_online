@@ -125,7 +125,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   z-index: 2;
   position: absolute;
-  top: -146px;
+  top: -152px;
   left: 50%;
   transform: translate(-50%, 40px);
   opacity: 0;
@@ -152,6 +152,28 @@ body {
   opacity: 1;
   transform: translate(-50%, 0);
   animation: float 3s ease-in-out infinite;
+}
+
+.gif-smile{
+  position: fixed;
+  width: 50px;
+  height: auto;
+  bottom: 250px;
+  z-index: 4;
+}
+
+.gif-little{
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 75px;
+  left: 45px;
+  opacity: 0;
+  z-index: 4;
+}
+.gif-little.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 
 .flowers {
