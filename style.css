@@ -77,7 +77,7 @@ body {
   left: 0;
   width: 100%;
   height: 90px;
-  background-color: #FFDDE4;
+  background-color: rgb(255, 221, 228);
   clip-path: polygon(0 0, 100% 0, 50% 100%);
   transform-origin: top center;
   transition: transform 0.8s ease;
@@ -115,7 +115,7 @@ body {
   display: none;
 }
 .letter {
-  background: rgb(252, 245, 166);
+  background: rgb(249, 223, 228);
   width: 220px;
   padding: 10px;
   border-radius: 16px;
@@ -141,7 +141,7 @@ body {
 }
 
 .card-letter .info p{
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .letter.show {
@@ -154,11 +154,13 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-.gif-smile{
-  position: fixed;
+.gif-bubu-dudu{
+   position: absolute;
   width: 50px;
   height: auto;
-  bottom: 250px;
+  bottom: 185px;
+  left: 45px;
+  opacity: 0;
   z-index: 4;
 }
 
