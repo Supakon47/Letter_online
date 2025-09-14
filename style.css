@@ -203,32 +203,30 @@ body {
 
 @media (max-width: 420px)  {
   .container {
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: auto;
   }
 
   .envelope {
     width: 100%;
-    height: 200px; /* เดิม 160px → เพิ่มสูงขึ้น */
+    height: 160px;
   }
 
   .top_head {
     width: 100%;
-    height: 100px; /* เดิม 80px → เพิ่ม */
+    height: 80px;
   }
 
   .letter {
-    width: 100%;           /* เพิ่มบรรทัดนี้เพื่อให้จดหมายเต็มกล่อง */
-    font-size: 22px;        /* เพิ่มขนาดตัวอักษรจาก 18px */
-    padding: 20px;          /* ขยาย padding เพิ่มความโปร่ง */
-    line-height: 1.6;       /* เพิ่มระยะบรรทัดให้อ่านง่าย */
+    font-size: 18px;
+    padding: 16px;
   }
 
   .flowers {
-    font-size: 32px; /* เพิ่มขึ้นเล็กน้อย */
+    font-size: 28px;
   }
 
   .hint {
-    font-size: 14px; /* อ่านง่ายขึ้นนิดนึง */
+    font-size: 12px;
   }
 }
