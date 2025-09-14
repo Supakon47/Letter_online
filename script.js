@@ -7,6 +7,7 @@ function openLetter() {
     const emoji_bear = document.getElementById("emoji_bear");
     const emoji_cake = document.getElementById("emoji_cake");
     const little_cat = document.querySelector(".gif-little");
+    const little_bubu_dudu = document.querySelector(".gif-bubu-dudu");
     const audio = document.getElementById('music');
     const loopStart = 2;
     const loopEnd = 19;
@@ -26,6 +27,7 @@ function openLetter() {
     emoji_bear.classList.add("hide");
     emoji_cake.classList.add("show");
     little_cat.classList.add("show");
+    little_bubu_dudu.classList.add("show");
     audio.play();
     opened = true;
   }
