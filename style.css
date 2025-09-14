@@ -158,8 +158,8 @@ body {
    position: absolute;
   width: 50px;
   height: auto;
-  bottom: 185px;
-  left: 45px;
+  bottom: 235px;
+  left: 240px;
   opacity: 0;
   z-index: 4;
 }
@@ -173,7 +173,7 @@ body {
   width: 50px;
   height: auto;
   bottom: 185px;
-  left: 45px;
+  left: 43px;
   opacity: 0;
   z-index: 4;
 }
