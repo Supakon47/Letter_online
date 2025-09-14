@@ -9,8 +9,8 @@ function openLetter() {
     const little_cat = document.querySelector(".gif-little");
     const little_bubu_dudu = document.querySelector(".gif-bubu-dudu");
     const audio = document.getElementById('music');
-    const loopStart = 2;
-    const loopEnd = 19;
+    const loopStart = 51;
+    const loopEnd = 81;
 
     audio.currentTime = loopStart;
     audio.play();
